@@ -1,0 +1,25 @@
+.signup-form {
+    padding: 50px;
+}
+
+.phone-input {
+    outline: none;
+    width: 100%;
+}
+
+.phone-input:focus{
+    border: 1px solid #03fc4e;
+}
+
+.link-btn {
+    align-self: flex-start;
+    width: 80px;
+}
+
+@media (max-width:767px){
+    .signup-form {
+        padding: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

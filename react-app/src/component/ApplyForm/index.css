@@ -1,0 +1,81 @@
+.apply-bg {
+    background-image: url("https://elementor.com/marketing/wp-content/uploads/sites/9/2021/05/29.04.21_Web-Form-Design-Examples_15-Examples-of-Web-Form-Design-Done-Right_1200_628_2-.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.apply-now-form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.apply-input {
+   width: 350px;
+}
+
+.text-area {
+    border: 1px solid #dedbd9;
+    outline: none;
+    padding: 5px;
+}
+
+.text-area:focus {
+    border: none;
+    outline: 1px solid #03fc4e;
+}
+
+.resume-div {
+    width: 50%;
+}
+
+.submit-btn {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: transparent;
+    border: 1px solid violet;
+    color: violet;
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (max-width:767px){
+    .apply-bg {
+        padding: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .apply-now-form {
+        width: 100%;
+    }
+
+    .apply-input {
+        width: 250px;
+    }
+
+    .text-area {
+        width: 250px;
+    }
+
+    .resume-div {
+        width: 70%;
+    }
+
+    .apply-now-heading {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,30 @@
+.jobdetails-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-details-title {
+    font-size: 40px;
+}
+
+.contract-type {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    border: 1px solid black;
+}
+
+.apply-btn {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}

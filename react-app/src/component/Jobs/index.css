@@ -1,0 +1,73 @@
+.jobs-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-image: url("https://png.pngtree.com/background/20211215/original/pngtree-modern-simple-elegant-gradient-red-landing-page-website-background-picture-image_1455085.jpg");
+    background-size: cover;
+}
+
+.jobs-upper-bg {
+    background-image: url("https://images.pling.com/img/00/00/59/97/06/1588497/4cbf8a3030c846bcac252ee2dd2af5776ab405fd24d4ebfc6fef3d8be8fea9a58300.jpg");
+    background-size: cover;
+    padding: 10px;
+}
+
+.jobs-heading {
+    font-size: 30px;
+    padding-left: 20px;
+    font-family: Copperplate Gothic;
+}
+.jobs-ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jobs-link {
+    background-color: #ffffff;
+    text-decoration: none;
+    min-width: 250px;
+    margin: 20px;
+    padding: 10px;
+    height: 150px;
+    box-shadow: 1px 1px 10px 5px #2d2d2e90;
+    border-radius: 7px;
+}
+
+@media (max-width:767px){
+    .jobs-link{
+        height: 200px;
+    }
+}
+
+.jobs-li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jobs-title {
+    font-size: 22px;
+    color: black;
+    font-family: Georgia;
+}
+
+.jobs-company-name {
+    font-size: 15px;
+    color: black;
+}
+
+.jobs-location-div {
+    display: flex;
+    align-items: center;
+}
+
+.jobs-location {
+    font-size: 10px;
+    color: black;
+}
