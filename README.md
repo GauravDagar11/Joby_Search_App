@@ -16,6 +16,10 @@ component JobDetails and path "/job/:id" for the particular job details
 component ApplyForm and path "/apply-now" for the Apply Now Form
 component Success and path "/successfully-applied" for the last Success Page
 
+**Login Credentials**
+Email : gaurav@gmail.com
+Password : gaurav123
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Server**
 
 I have also build server using Node + Express. Here i have build for signup and login.
